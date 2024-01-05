@@ -58,10 +58,10 @@ function LogTextCall()
 NowTimeCall
 echo "<my_pppoe> ----------------------------------------------"
 echo "$NowTime - State:Carry Out"
-LogMax=512
+LogMax=100
 LogFile="/root/my_pppoe.log"
-PingA=114.114.114.114
-PingB=202.108.22.5
+PingA=223.5.5.5
+PingB=119.29.29.29
 CycleIndex=3
 IntervalTime=10
 LogTextCall $LogFile $LogMax
